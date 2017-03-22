@@ -1,0 +1,18 @@
+body{
+	padding-top: 65px;
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.sidebar{
+	padding-top: 20px;
+	padding-left: 20px;
+	background-color: #DEB887;
+	border-radius: 25px;
+}
+.nav{
+	float: right;
+}
+.clubTitle{
+	float: right;
+}
