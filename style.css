@@ -1,18 +1,29 @@
-body{
-	padding-top: 65px;
-	background-color: white;
-	padding-left: 10px;
-	padding-right: 10px;
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
 }
-.sidebar{
-	padding-top: 20px;
-	padding-left: 20px;
-	background-color: #DEB887;
-	border-radius: 25px;
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: red;
+  padding: 15px;
+
 }
-.nav{
-	float: right;
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
 }
-.clubTitle{
-	float: right;
+.jumboTitle{
+
 }
